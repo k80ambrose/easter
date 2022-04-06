@@ -1,0 +1,10 @@
+html{
+  background: #F5FFCC;
+  background: -moz-linear-gradient(45deg, #F5FFCC 0%, #F0FEFF 52%, #F9E6FA 100%);
+  background: -webkit-linear-gradient(45deg, #F5FFCC 0%, #F0FEFF 52%, #F9E6FA 100%);
+  background: linear-gradient(45deg, #F5FFCC 0%, #F0FEFF 52%, #F9E6FA 100%);
+}
+
+h1 {
+font
+}
