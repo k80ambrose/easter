@@ -3,11 +3,22 @@ body {
   background: -moz-linear-gradient(45deg, #F5FFCC 0%, #F0FEFF 52%, #F9E6FA 100%);
   background: -webkit-linear-gradient(45deg, #F5FFCC 0%, #F0FEFF 52%, #F9E6FA 100%);
   background: linear-gradient(45deg, #F5FFCC 0%, #F0FEFF 52%, #F9E6FA 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
+  margin: 0px;
   cursor: url("http://www.rw-designer.com/cursor-view/123873.png"), auto;
+}
+
+div.clouds {
+  position: absolute;
+  display: flex;
+  opacity: 90%;
+  align-items: stretch;
+  width: 100%;
+  z-index:-2;
+}
+
+div.urmom {
+  justify-content: center;
+  z-index:100;
 }
 
 h1 {
@@ -47,7 +58,8 @@ button{
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-family: 'Berkshire Swash', cursive;
+  letter-spacing: 2px;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.15385;
@@ -70,6 +82,6 @@ button:hover,button:focus {
 
 button:active {
   background-color: MistyRose;
-  color: black;
+  color: DarkOliveGreen;
   box-shadow: none;
 }
